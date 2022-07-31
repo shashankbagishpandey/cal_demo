@@ -3,7 +3,8 @@ import java.util.*;
 class func{
 
 	public static void main(String args[]) {
-	
+		System.out.println(multiply(n1, n2);
+		System.out.println(divid(n1, n2);	
 	}	
 
 	public static int  addition(int n1,int n2){
