@@ -3,12 +3,17 @@ import java.util.*;
 class func{
 
 	public static void main(String args[]) {
+
 		Scanner sc=new Scanner(System.in);
 		int n1=sc.nextInt();sc.nextLine();
 		int n2=sc.nextInt();sc.nextLine();
+
 		System.out.println(addition(n1,n2));
 		System.out.println(substraction(n1,n2));
 
+
+		System.out.println(multiply(n1, n2);
+		System.out.println(divide(n1, n2);	
 	}	
 
 	public static int  addition(int n1,int n2){
