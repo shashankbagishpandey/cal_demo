@@ -18,6 +18,11 @@ class func{
 		System.out.println(co(num1));
 		System.out.println(si(num1));
 
+		
+		// Scientific 1
+		System.out.println(power(2, 3));
+		System.out.println(remainder(5, 2));
+
 	}	
 
 	public static int  addition(int n1,int n2){
@@ -37,11 +42,25 @@ class func{
 	private static double divide(int num1, int num2) {
 		return num1 / num2;
 	}
+
 	private static double co(int num1) {
 		return (Math.cos(num1));
 	}
 	private static double si(int num1) {
 		return Math.sin(num1);
+	}
+	
+	private static int remainder(int large, int small) {
+		return large % small;
+	}
+	
+	private static double power(int num, int pow) {
+		double ans = 1.0;
+		for(int i=0; i<pow; i++) {
+			ans *= num;
+		}
+		return ans;
+
 	}
 
 }
