@@ -1,5 +1,5 @@
-import java.util.*;
 
+import java.util.*;
 class func{
 
 	public static void main(String args[]) {
@@ -12,8 +12,12 @@ class func{
 		System.out.println(substraction(n1,n2));
 
 
-		System.out.println(multiply(n1, n2);
-		System.out.println(divide(n1, n2);	
+		System.out.println(multiply(n1, n2));
+		System.out.println(divide(n1, n2));
+
+		System.out.println(co(num1));
+		System.out.println(si(num1));
+
 	}	
 
 	public static int  addition(int n1,int n2){
@@ -26,12 +30,18 @@ class func{
 		return sub;
 	}
 
-	private long multiply(int num1, int num2) {
+	private static long multiply(int num1, int num2) {
 		return num1 * num2;
 	}
 	
-	private double divide(int num1, int num2) {
+	private static double divide(int num1, int num2) {
 		return num1 / num2;
+	}
+	private static double co(int num1) {
+		return (Math.cos(num1));
+	}
+	private static double si(int num1) {
+		return Math.sin(num1);
 	}
 
 }
